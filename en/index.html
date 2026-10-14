@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gemini Enterprise FAQs - Kuwait University</title>
-  <meta name="description" content="Short answers for Kuwait University students and faculty using Gemini Enterprise: signing in, browser profiles, which tool to use, notices, dos and don'ts, and help.">
-  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Short answers for Kuwait University students and faculty using Gemini Enterprise: signing in, browser profiles, the iOS mobile app, which tool to use, notices, dos and don'ts, and help.">
+  <meta name="color-scheme" content="light">
   <link rel="icon" href="../assets/ku-logo.png">
   <link rel="alternate" hreflang="ar" href="../index.html">
   <link rel="stylesheet" href="../assets/style.css">
@@ -15,36 +15,46 @@
 
   <header class="topbar">
     <div class="brand">
-      <img class="logo-light" src="../assets/ku-logo.png" alt="Kuwait University logo">
-      <img class="logo-dark" src="../assets/ku-logo-white.png" alt="Kuwait University logo">
+      <img src="../assets/ku-logo.png" alt="Kuwait University logo">
       <div class="brand-text">Kuwait University<small>Gemini Enterprise - FAQs</small></div>
     </div>
     <a class="lang-toggle" href="../index.html" hreflang="ar" lang="ar">العربية</a>
   </header>
 
-  <div class="hero">
+  <div class="intro">
     <h1>Gemini Enterprise: frequently asked questions</h1>
-    <p>Short answers for students and faculty. Portal: <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a> - Help: <a href="https://bit.ly/ku-ge-rs">bit.ly/ku-ge-rs</a></p>
+    <p>Short answers for students and faculty.</p>
   </div>
-
-  <nav aria-label="Sections">
-    <ul class="toc">
-      <li><a href="#getting-in">Getting in</a></li>
-      <li><a href="#access-denied">"Access denied"</a></li>
-      <li><a href="#tools">Which tool</a></li>
-      <li><a href="#students">For students</a></li>
-      <li><a href="#faculty">For faculty</a></li>
-      <li><a href="#dos">Dos and don'ts</a></li>
-      <li><a href="#help">Help</a></li>
-      <li><a href="#policy">Policy</a></li>
-    </ul>
-  </nav>
 
   <main>
 
+  <section class="start" aria-labelledby="start-title">
+    <h2 id="start-title">Start here</h2>
+    <ol class="steps">
+      <li><div><strong>Sign in at <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a></strong>
+        <p>Use your KU account (your University email). Not a personal Gmail.</p></div></li>
+      <li><div><strong>Avoid "Access denied"</strong>
+        <p>Sign out of any personal Gmail in your browser first, or create a separate browser profile just for your KU account. <a href="#access-denied">How to create a profile</a></p></div></li>
+      <li><div><strong>Use it on your iPhone</strong>
+        <p>Install "Google Gemini Enterprise" from the App Store, then sign in by scanning a QR code from the web version. <a href="#mobile">Mobile app steps</a></p></div></li>
+      <li><div><strong>Need help?</strong>
+        <p>Use the request form: <a href="https://bit.ly/ku-ge-rs">bit.ly/ku-ge-rs</a></p></div></li>
+    </ol>
+  </section>
+
+  <nav class="toc" aria-label="Sections">
+    <ul>
+      <li><a href="#getting-in">Getting in</a></li>
+      <li><a href="#mobile">Mobile app</a></li>
+      <li><a href="#tools">Using it well</a></li>
+      <li><a href="#notices">Notices</a></li>
+      <li><a href="#help">Help and policy</a></li>
+    </ul>
+  </nav>
+
   <section id="getting-in">
-    <h2>1. Getting in</h2>
-    <details open>
+    <h2>Getting in</h2>
+    <details>
       <summary>Where do I go?</summary>
       <div class="answer">
         <p>Open <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a>. Always enter through this address.</p>
@@ -56,15 +66,13 @@
         <p>Your KU account - the same one you use for University email. Not a personal Gmail account.</p>
       </div>
     </details>
-  </section>
 
-  <section id="access-denied">
-    <h2>2. The most common problem: "Access denied"</h2>
-    <details open>
+    <h3 class="group" id="access-denied">The most common problem: "Access denied"</h3>
+    <details>
       <summary>Why do I see "Access denied" or the wrong account?</summary>
       <div class="answer">
-        <p>Your browser is signed in to more than one Google account (for example a personal Gmail and your KU account), and it picks the wrong one.</p>
-        <p class="note"><strong>Fix:</strong> create a separate browser profile used only for your KU account, and open <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a> from that profile.</p>
+        <p>Your browser is signed in to more than one Google account (for example a personal Gmail and your KU account). It picks the wrong one.</p>
+        <p class="note"><strong>Fix:</strong> create a separate browser profile used only for your KU account. Open <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a> from that profile.</p>
         <figure>
           <img src="../assets/chrome-profile.png" width="1020" height="871" loading="lazy"
                alt="Chrome menu opened from the profile icon at the top right, showing the signed-in profile and, under Other Chrome Profiles, the Add New Profile option circled.">
@@ -107,9 +115,30 @@
     </details>
   </section>
 
+  <section id="mobile">
+    <h2>Mobile app</h2>
+    <div class="body">
+      <p>Gemini Enterprise is now on the App Store for iOS.</p>
+      <a class="btn" href="https://apps.apple.com/kw/app/google-gemini-enterprise/id6744536862">Get "Google Gemini Enterprise" on the App Store</a>
+      <p>To sign in on the app, scan a QR code from the web version:</p>
+      <ol>
+        <li>Install the app on your iPhone.</li>
+        <li>On a computer, open <a href="https://ai.ku.edu.kw">ai.ku.edu.kw</a> and sign in.</li>
+        <li>Open Settings (the gear icon, bottom-left), then choose "Mobile login". A QR code appears.</li>
+        <li>Scan the QR code with the app.</li>
+      </ol>
+      <figure class="narrow">
+        <img src="../assets/ge-mobile-login.png" width="582" height="583" loading="lazy"
+             alt="Gemini Enterprise web settings menu opened from the gear icon at the bottom-left. The gear icon and the Mobile login option are circled. Other options shown: Appearance, Personalization, Get help.">
+        <figcaption>Settings (gear icon, bottom-left) &gt; "Mobile login".</figcaption>
+      </figure>
+    </div>
+  </section>
+
   <section id="tools">
-    <h2>3. Which tool for what?</h2>
-    <details open>
+    <h2>Using it well</h2>
+    <h3 class="group">Which tool for what?</h3>
+    <details>
       <summary>Chat</summary>
       <div class="answer">
         <p>Drafting, editing, summarising and translation.</p>
@@ -137,56 +166,9 @@
         <p class="src">Source: <a href="https://docs.cloud.google.com/gemini/enterprise/docs/agents-overview">Google Cloud - Agents overview</a></p>
       </div>
     </details>
-  </section>
 
-  <section id="students">
-    <h2>4. Notice for students</h2>
-    <details open>
-      <summary>What should I know before I use it?</summary>
-      <div class="answer">
-        <ul>
-          <li><strong>Check what it tells you.</strong> It can be wrong, and it can invent facts and references.</li>
-          <li><strong>Your work stays within the University's environment</strong> and is not used to train public AI models. Still, keep passwords and personal, medical or financial details out.</li>
-          <li><strong>Keep your own copy of your files.</strong> It is an assistant, not storage.</li>
-          <li><strong>Academic integrity rules apply.</strong> Do not submit its output as your own work unless your instructor allows it.</li>
-          <li><strong>Tell your instructor</strong> if something goes wrong.</li>
-          <li><strong>Using it is your choice.</strong></li>
-        </ul>
-        <p class="src">See the <a href="https://www.ku.edu.kw/sites/default/files/2024-12/AI%20Policy%202024%20November%20-%20English.pdf">KU Generative AI Policy (PDF)</a>.</p>
-      </div>
-    </details>
-  </section>
-
-  <section id="faculty">
-    <h2>5. Notice for faculty</h2>
-    <details open>
-      <summary>What should I know before I use it?</summary>
-      <div class="answer">
-        <ul>
-          <li><strong>Check what it produces</strong> before you rely on it.</li>
-          <li><strong>Your data stays yours.</strong> It stays within KU's environment and is not used to train public models.</li>
-          <li><strong>Keep your own copy</strong> of any files you connect.</li>
-          <li><strong>Share the student notice</strong> (above) with your students before using it in class.</li>
-          <li><strong>Report problems</strong> via <a href="https://bit.ly/ku-ge-rs">bit.ly/ku-ge-rs</a>.</li>
-          <li><strong>Participation is voluntary.</strong></li>
-        </ul>
-      </div>
-    </details>
+    <h3 class="group" id="dos">Dos and don'ts</h3>
     <details>
-      <summary>Where can I find the faculty workshop slides?</summary>
-      <div class="answer">
-        <p>Slides from the faculty introduction workshop held on 23 September 2026:</p>
-        <ul>
-          <li><a href="../assets/slides/gemini-faculty-workshop-2026-09-23-en.pdf">Slides in English (PDF)</a></li>
-          <li><a href="../assets/slides/gemini-faculty-workshop-2026-09-23-ar.pdf" hreflang="ar">Slides in Arabic (PDF)</a></li>
-        </ul>
-      </div>
-    </details>
-  </section>
-
-  <section id="dos">
-    <h2>6. Dos and don'ts</h2>
-    <details open>
       <summary>Quick list</summary>
       <div class="answer">
         <div class="two-col">
@@ -199,7 +181,7 @@
               <li>Check citations, figures and calculations.</li>
             </ul>
           </div>
-          <div class="dont">
+          <div>
             <h3>Don't</h3>
             <ul>
               <li>Upload restricted data: student records, exam papers, personal data.</li>
@@ -212,19 +194,56 @@
     </details>
   </section>
 
+  <section id="notices">
+    <h2>Notices</h2>
+    <details id="students">
+      <summary>For students: what should I know before I use it?</summary>
+      <div class="answer">
+        <ul>
+          <li><strong>Check what it tells you.</strong> It can be wrong, and it can invent facts and references.</li>
+          <li><strong>Your work stays within the University's environment</strong> and is not used to train public AI models. Still, keep passwords and personal, medical or financial details out.</li>
+          <li><strong>Keep your own copy of your files.</strong> It is an assistant, not storage.</li>
+          <li><strong>Academic integrity rules apply.</strong> Do not submit its output as your own work unless your instructor allows it.</li>
+          <li><strong>Tell your instructor</strong> if something goes wrong.</li>
+          <li><strong>Using it is your choice.</strong></li>
+        </ul>
+        <p class="src">See the <a href="https://www.ku.edu.kw/sites/default/files/2024-12/AI%20Policy%202024%20November%20-%20English.pdf">KU Generative AI Policy (PDF)</a>.</p>
+      </div>
+    </details>
+    <details id="faculty">
+      <summary>For faculty: what should I know before I use it?</summary>
+      <div class="answer">
+        <ul>
+          <li><strong>Check what it produces</strong> before you rely on it.</li>
+          <li><strong>Your data stays yours.</strong> It stays within KU's environment and is not used to train public models.</li>
+          <li><strong>Keep your own copy</strong> of any files you connect.</li>
+          <li><strong>Share the <a href="#students">student notice</a></strong> with your students before using it in class.</li>
+          <li><strong>Report problems</strong> via <a href="https://bit.ly/ku-ge-rs">bit.ly/ku-ge-rs</a>.</li>
+          <li><strong>Participation is voluntary.</strong></li>
+        </ul>
+      </div>
+    </details>
+    <details>
+      <summary>For faculty: where are the workshop slides?</summary>
+      <div class="answer">
+        <p>Slides from the faculty introduction workshop held on 23 September 2026:</p>
+        <ul>
+          <li><a href="../assets/slides/gemini-faculty-workshop-2026-09-23-en.pdf">Slides in English (PDF)</a></li>
+          <li><a href="../assets/slides/gemini-faculty-workshop-2026-09-23-ar.pdf" hreflang="ar">Slides in Arabic (PDF)</a></li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
   <section id="help">
-    <h2>7. Getting help</h2>
-    <details open>
+    <h2>Help and policy</h2>
+    <details>
       <summary>Where do I get help or report a problem?</summary>
       <div class="answer">
         <p>Use the request form: <a href="https://bit.ly/ku-ge-rs">bit.ly/ku-ge-rs</a>.</p>
       </div>
     </details>
-  </section>
-
-  <section id="policy">
-    <h2>8. Policy</h2>
-    <details open>
+    <details id="policy">
       <summary>Which policy applies?</summary>
       <div class="answer">
         <p>The Kuwait University Generative AI Policy:
@@ -238,7 +257,7 @@
 
   <footer>
     <strong>Kuwait University — IT Sector</strong><br>
-    Last updated: <time datetime="2026-09-24">2026-09-24</time>
+    Last updated: <time datetime="2026-10-14">2026-10-14</time>
   </footer>
 
 </div>
